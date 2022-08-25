@@ -1,0 +1,52 @@
+/*Fuentes personalizadas*/
+@font-face {
+	font-family: 'Helvetica Cond Light';
+	src: url(fuentes/HelveticaLTStd-LightCond.otf)
+}
+
+@font-face {
+	font-family: 'Helvetica Cond Bold';
+	src: url(fuentes/HelveticaLTStd-BlkCond.otf);
+}
+/**interlineado general**/
+body {
+	line-height: 1.5;
+    background-color:#C7A8A5;
+    margin: 0;
+    display:grid;
+    justify-content: center;
+    align-items: center;
+}
+h1 {
+	font-size: 35px;
+	color: white;
+	font-family: 'Helvetica Cond Bold';
+	background-color: #C7A8A5;
+	margin-top: 20px;
+    padding: 5px;
+    text-align: center;
+    padding-top: 20px;
+}
+h2 { 
+    font-size: 25px;
+    color:rgba(135,98,93,0.75);
+    font-family: 'Helvetica Cond Bold';
+    text-align: center;
+}
+.form {
+    text-align: left;
+    background-color: #F0F3F5;
+    font-family: 'Helvetica Cond Light';
+    width: 300px;
+    height: auto;
+    display: grid;
+    justify-content: center;
+    position: absolute;
+    left: 50%;
+    margin-left: -150px;
+    margin-top: 50px;
+    box-shadow: -1px 0px 48px 0px rgba(135,98,93,0.75);
+    -webkit-box-shadow: -1px 0px 48px 0px rgba(135,98,93,0.75);
+    -moz-box-shadow: -1px 0px 48px 0px rgba(135,98,93,0.75);
+    border-radius: 10px;
+}
